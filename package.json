@@ -1,0 +1,29 @@
+{
+  "name": "gittogether",
+  "version": "1.0.0",
+  "description": "connect developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Mudit Pachauri",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "socket.io": "^4.8.1",
+    "validator": "^13.15.15"
+  }
+}
