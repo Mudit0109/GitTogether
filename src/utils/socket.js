@@ -13,7 +13,7 @@ const getSecretRoomId = (userId, targetUserId) => {
 const initializeSocket = (server) => {
   const io = socket(server, {
     cors: {
-      origin: "https://gittogether-web.onrender.com",
+      origin: "https://gittogether.me/",
     },
   });
 
