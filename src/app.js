@@ -7,7 +7,7 @@ const http=require("http");
 require('dotenv').config();
 
 app.use(cors({
-  origin: 'https://gittogether-web.onrender.com',
+  origin: 'https://gittogether.me/',
   credentials: true,
 }));
 app.use(cookieParser()); 
